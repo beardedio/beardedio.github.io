@@ -1,0 +1,15 @@
+.inputerror {
+    border: red !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+}
+
+#msg-success, #msg-error, #msg-processing {
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+#msg-error {
+    color: #ed786a;
+}
