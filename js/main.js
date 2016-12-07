@@ -44,6 +44,7 @@ jQuery(document).ready(function($) {
                 "X-Api-Key": "tK8TTas3hp4eNW5CDYTMi5g2RXRngwQE5n2K3txv"
             },
             data: JSON.stringify({
+                "toaddress": "bskrtich@bearded.io",
                 "name": name,
                 "email": email,
                 "message": message
