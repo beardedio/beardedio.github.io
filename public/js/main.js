@@ -36,17 +36,17 @@ jQuery(document).ready(function($) {
         // Send message
         $("#msg-form").hide();
         $("#msg-processing").show();
-        var url = "https://xy4toks6ha.execute-api.us-west-2.amazonaws.com/prod/contact";
+        var url = "https://gxmkmugvrk.execute-api.us-west-2.amazonaws.com/default/sendMail";
         $.ajax({
             type: "POST",
             url: url,
             headers: {
-                "X-Api-Key": "tK8TTas3hp4eNW5CDYTMi5g2RXRngwQE5n2K3txv"
+                "X-Api-Key": "none"
             },
             data: JSON.stringify({
-                "toaddress": "brandon@bearded.io",
-                "name": name,
+                "to_id": "qcJNO7in8U", // brandon.bearded.io
                 "email": email,
+                "name": name,
                 "message": message
             }),
             crossDomain: true,
