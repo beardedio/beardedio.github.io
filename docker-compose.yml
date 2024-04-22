@@ -4,6 +4,6 @@ services:
     image: nginx
     container_name: "beardedio"
     volumes:
-      - ./public:/usr/share/nginx/html
+      - ./docs:/usr/share/nginx/html
     ports:
      - "80"
